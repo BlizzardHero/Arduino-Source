@@ -124,7 +124,7 @@ void StatsReset::program(SingleSwitchProgramEnvironment& env){
                     if (POKEMON == 2){
                         pbf_mash_button(context, BUTTON_A, 10 * TICKS_PER_SECOND);
                     }else{
-                        pbf_mash_button(context, BUTTON_A, 15 * TICKS_PER_SECOND);
+                        pbf_mash_button(context, BUTTON_A, 5 * TICKS_PER_SECOND);
                     }
                     pbf_mash_button(context, BUTTON_B, 20 * TICKS_PER_SECOND);
                 },
